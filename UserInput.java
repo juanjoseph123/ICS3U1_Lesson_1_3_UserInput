@@ -2,12 +2,13 @@ class UserInput extends ConsoleProgram {
   
   public void run() {
     
-    // start coding here
+    // Declare variables
     String strName;
     int intAge;
     double dblCurrentMark;
     boolean blnAssignedLocker;
 
+    //Assign variable to user input
     strName = readLine("Enter your name: ");
     System.out.println("Name: " + strName);
 
